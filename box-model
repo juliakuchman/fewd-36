@@ -6,7 +6,18 @@
 <body>
 
 <style>
+
+header {
+	padding: 30px	
+	background: greenyellow
+	border: 3px solid red ; 
+
+}
+
+
 div {
+	margin-top: 30px;
+	margin-bottom: 60px;
 	padding: 30px
 	background-color: thistle;
 	border: 5px dotted peachpuff;
