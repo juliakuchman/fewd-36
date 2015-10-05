@@ -1,0 +1,26 @@
+
+
+
+header{
+
+}
+
+
+body{
+	width: 600px;
+	margin: auto;
+}
+
+
+li{
+	padding bottom 20;
+	padding top 20;
+}
+
+footer{
+
+}
+
+li:	last-child {
+	border:none;
+}
