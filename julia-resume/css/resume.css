@@ -81,9 +81,10 @@ nav li {
 	font-size: initial; /* removes extra space character between li's */
 }
 
-nav li:not(:last-child) {
+nav li:not(:last-child) 
+{
 	padding-right: 5px;
-	border-right: 1px solid #999999;
+	border-right: 2px solid #999999;
 	margin-right: 5px;
 }
 
@@ -91,14 +92,15 @@ nav li:not(:last-child) {
 /* Links */
 /* ------------------------ */
 a {
-	color: #5BC690;
+	color: darkmagenta;
 }
 
 
 /* About Me page */
 /* ------------------------ */
 img {
-	float: right;
+	width: 600px;
+	float: center;
 	margin-left: 20px;
 	margin-bottom: 20px;
 	border: 2px solid #999999;
