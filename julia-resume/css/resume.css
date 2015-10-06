@@ -14,11 +14,11 @@ p {
 /* Layout */
 /* ------------------------ */
 body {
-	background: #lavender;
-	border: 5px solid #999999;
-	margin: 30px;
+	background: lavender;
 	padding: 50px;
-	color: white;
+	border: 10px solid #999999;
+	margin: 20px;
+	color: black;
 }
 
 header,
