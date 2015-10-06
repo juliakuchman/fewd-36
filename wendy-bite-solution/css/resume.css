@@ -1,0 +1,139 @@
+/* Reset */
+/* ------------------------ */
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+
+/* Layout */
+/* ------------------------ */
+body {
+	background: #333333;
+	border: 5px solid #999999;
+	margin: 30px;
+	padding: 50px;
+	color: white;
+}
+
+header,
+section,
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+header {
+	border-bottom: 2px solid #999999;
+}
+
+footer {
+	border-top: 2px solid #999999;
+}
+
+section {
+	overflow: hidden; /* contain float technique */
+}
+
+
+/* Headings */
+/* ------------------------ */
+h1 {
+	text-align: center;
+	font-style: italic;
+}
+
+h2 {
+	margin-bottom: 15px;
+	font-family: Arial;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #999999;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+h4 {
+	font-family: Arial;
+}
+
+
+/* Navigation Lists */
+/* ------------------------ */
+nav ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 0; /* removes extra space character between li's */
+}
+
+nav li {
+	display: inline;
+	font-size: initial; /* removes extra space character between li's */
+}
+
+nav li:not(:last-child) {
+	padding-right: 5px;
+	border-right: 1px solid #999999;
+	margin-right: 5px;
+}
+
+
+/* Links */
+/* ------------------------ */
+a {
+	color: #5BC690;
+}
+
+
+/* About Me page */
+/* ------------------------ */
+img {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: 2px solid #999999;
+	padding: 5px;
+}
+
+
+/* Resume page */
+/* ------------------------ */
+section ol,
+section ul {
+	padding-left: 40px;
+}
+
+section ul li {
+	line-height: 1.5;
+}
+
+section ol {
+	list-style-type: square;
+}
+
+
+/* Resume page - Experience */
+/* ------------------------ */
+h4 span {
+	font-weight: normal;
+}
+
+ol p {
+	color: #999999;
+}
+
+em {
+	color: #999999;
+	font-style: normal;
+	font-size: 12px;
+}
