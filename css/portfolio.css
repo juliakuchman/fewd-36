@@ -10,12 +10,14 @@ body{
 	color: white;
 }
 
+h1
+
 .first3	{
 	display:flex;
-	flex:1;
+	flex-direction: row;
+	flex-flow:row wrap;
 }
 
-.next3{
-	display: flex;
+.ul{
 	flex:1;
 }
