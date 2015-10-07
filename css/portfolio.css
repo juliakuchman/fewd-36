@@ -9,3 +9,13 @@ body{
 	text-align: center;
 	color: white;
 }
+
+.first3	{
+	display:flex;
+	flex:1;
+}
+
+.next3{
+	display: flex;
+	flex:1;
+}
