@@ -10,14 +10,17 @@ body{
 	color: white;
 }
 
-h1
-
-.first3	{
-	display:flex;
-	flex-direction: row;
-	flex-flow:row wrap;
+div {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
 
-.ul{
-	flex:1;
+ul {
+	background: red;
+
+}
+
+li[data-type="cookie"]{
+	background-image:leaf1.png;
 }
