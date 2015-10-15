@@ -5,22 +5,39 @@
 }
 
 body{
-	background-color: cadetblue;
+	background: url("http://i.imgur.com/bjhHRng.jpg");
 	text-align: center;
+	color: red;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: right center;
+	background-size: cover;
+}
+
+h1{
 	color: white;
+	padding: 5px
+}
+
+p{
+	font-size: 20px;
 }
 
 div {
 	display: flex;
-	flex-flow: row wrap;
+	flex-wrap: nowrap;
 	justify-content: space-around;
+	background: grey;
 }
 
 ul {
-	background: grey;
-
+	background: white;
+	padding: 10px;
 }
 
-li[data-type="cookie"]{
-	background-image:leaf1.png;
+li{
+	display: inline;
+	padding: 30px;
+	margin: 10px;
 }
+

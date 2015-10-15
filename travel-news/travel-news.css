@@ -1,13 +1,39 @@
-
-
+ 
+.title-container{
+	display: flex;
+	width: 700px;
+	margin: 0px auto;
+	justify-content: space-between;	
+}
 
 header{
+	height: 51px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'helvetica';
+	border-bottom: 5px solid black;
+}
 
+.subnav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.subnav ul{
+	display: flex;
+}
+
+.subnav li{
+	padding: 10px;
+}
+
+header img{
+	height: 50px;
 }
 
 
 body{
-	width: 600px;
+	width: 700px;
 	margin: auto;
 }
 

@@ -9,10 +9,9 @@
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-
 }
 
-h6, p, td, div, span, article{
+h6, td, div, span, article{
 	background: skyblue;
 }
 
@@ -22,6 +21,32 @@ h6, p, td, div, span, article{
 
 .main {
 	flex:1;
+}
+
+.googlecfo{
+	position: relative;
+	margin: 10px auto;
+	width:480px;
+	height: 320px;
+}
+
+.googlecfo img{
+	position: absolute;
+}
+
+.googlecfo h5{
+	position: absolute;
+	top: 50px; 
+	left:50px;
+	color: red;
+}
+
+.googlecfo div{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right:10px;
+	font-size: 10px;
 }
 
 section{
@@ -50,6 +75,20 @@ h6{
 <body>
 
 <h1>CSS layout</h1>
+
+<h2>Absolute positioning</h2>
+
+<div class="googlecfo">
+	<img width="480" src="googlecfo.jpg">
+	<h5>Hiring women is good for business</h5>
+
+	<div>
+		Pork belly rump picanha kevin, chuck tenderloin pancetta. Cow pork chop beef meatloaf. Ribeye sausage tail doner kielbasa pig filet mignon pastrami porchetta short loin chuck beef ribs turducken. Ribeye short loin kevin, filet mignon andouille turducken tail pork belly rump cupim ground round leberkas alcatra. Swine tri-tip ground round ribeye, sausage picanha cow meatball meatloaf. Pig spare ribs ball tip bacon ribeye pork fatback t-bone beef ribs. Strip steak fatback jowl, pork frankfurter pork chop beef ribs porchetta prosciutto.
+	</div>
+
+
+</div>
+
 
 <h2>Table layout</h2>
 
