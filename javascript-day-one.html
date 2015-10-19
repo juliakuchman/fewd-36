@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Day 1</title>
+</head>
+<body>
+	<p>Examples of Javascript</p>
+
+	<script>
+		function addTwoNumbers(){
+			var firstNumber = parseInt(prompt("Give me one number"));
+			//var parsedNumber1 = parseInt(firstNumber);
+			//console.log(firstNumber)
+			var secondNumber = parseInt(prompt("Give me another number"));
+			var sum = firstNumber + secondNumber;
+			return sum;
+		}
+
+		function addTwoNewNumbers(num1,num2){
+			var sum = num1+num2
+			return sum;
+		}
+
+		function calcCelsToFahr(cels){
+			//comment: F = C * (9/5) + 32
+			var fahr = cels * (9/5) + 32;
+			return fahr;
+		}
+
+		function calcFahrToCels (fahr) {
+			//comment: C = (5/9)(F-32)
+			var cels = (5/9)*(fahr-32)
+			return cels;
+		}
+		
+		function calcAreaOfTriangle (base,height){
+			//calculate area of triangle given base and height
+			//area = (base*height)/2
+			var area = (base*height)/2
+			return area;
+		}
+
+		function calcCircOfCirc (radius){
+			//calculate the circumference of a circle (given r)
+			//2*pi*r
+			return 2 * Math.PI * radius;
+
+		}
+
+
+
+
+	</script>
+</body>
+</html>

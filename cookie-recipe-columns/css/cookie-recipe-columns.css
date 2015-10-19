@@ -1,0 +1,28 @@
+
+.layout{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.left column{
+	display: 2;
+}
+
+.right column{
+	display: 1;
+}
+
+.first row, .second row, .third row{
+	display: 1;
+}
+
+.instructions{
+	display: flex;
+	flex-direction: row;
+}
+
+.h2{
+	display: 1;
+}
