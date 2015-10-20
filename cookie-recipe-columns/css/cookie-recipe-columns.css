@@ -8,13 +8,15 @@
 
 .left column{
 	display: 2;
+	background-color: palegoldenrod;
 }
 
-.right column{
+.right-column{
 	display: 1;
+	background-color: khaki;
 }
 
-.first row, .second row, .third row{
+.first-row, .second-row, .third-row{
 	display: 1;
 }
 
@@ -23,6 +25,25 @@
 	flex-direction: row;
 }
 
+.first; .second; .third{
+	display: 1;
+}
+
 .h2{
 	display: 1;
+}
+
+h1{
+	font size: 18;
+}
+
+ul, ol, h2 {
+	font-size: 14px;
+	color: tomato;
+} 
+
+p{
+	font-size: 12px;
+	color: black;
+	align
 }
