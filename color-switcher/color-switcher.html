@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Switcher</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/color-switcher.css">
+
+</head>
+<body>
+
+<h1>Color Scheme Switcher</h1>
+
+<ul>
+	<li class="fuchsia">Fuchsia</li>
+	<li class="salmon">Salmon</li>
+	<li class="burlywood">Burlywood</li>
+	<li class="red">Red</li>
+</ul>
+
+<p>Try clicking one of the colors above to change the colors on this page</p>
+
+
+<script>
+
+function changeColor(color){
+
+var body = document.querySelector("body")
+body.setAttribute("class","salmon")
+
+}
+
+</script>
+
+<!--When google reads page, will stop at curly brackets-->
+
+</body>
+</html>

@@ -3,15 +3,18 @@
 	padding: 0;
 	margin:0;
 }
-
+html {
+	height: 100%;
+}
 body{
-	background: url("http://i.imgur.com/bjhHRng.jpg");
+	background: url("http://i.imgur.com/SnPP5jQ.jpg");
 	text-align: center;
 	color: red;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-position: right center;
+	background-position: center top;
 	background-size: cover;
+	height: 100%;
 }
 
 h1{
