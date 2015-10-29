@@ -1,0 +1,99 @@
+
+<!--String Length
+
+This property returns the number of code units in the string. UTF-16, the string format used by JavaScript, uses a single 16-bit code unit to represent the most common characters, but needs to use two code units for less commonly-used characters, so it's possible for the value returned by length to not match the actual number of characters in the string.
+
+-->
+
+<script>
+	// str.Length();
+
+</script>
+
+
+<!--Convert String to number 
+
+The parseInt() function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
+
+Parameters
+
+string
+	The value to parse. If string is not a string, then it is converted to a string (using the ToString abstract operation). Leading whitespace in the string is ignored.
+radix
+	An integer between 2 and 36 that represents the radix (the base in mathematical numeral systems) of the above mentioned string. Specify 10 for the decimal numeral system commonly used by humans. Always specify this parameter to eliminate reader confusion and to guarantee predictable behavior. Different implementations produce different results when a radix is not specified.
+
+	parseInt(string);
+
+-->
+
+
+Here is the .textContent property
+
+<p>this is some sample text</p>
+
+<script>
+var element = document.querySelector("p");
+
+var text = element.textContent;
+console.log (text)
+element.textContent = "I changed my mind, this is the real text";
+</script>
+
+
+<script>
+
+	var a = "Burrito";
+
+	console.log(a);
+
+	var phone = "4153428857";
+	console.log(phone.length);
+
+<!--//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt-->
+
+	var phone = "4153428857";
+	var convertnumber = parseInt(phone);
+	console.log(convertnumber);
+
+<!--//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString-->
+
+	var number = 4153428857;
+	phonenumber = 4153428857;
+	console.log(phonenumber.ToString());
+
+<!--//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split-->
+
+
+Event Handler
+
+//Event handler function
+
+function changeTextColor(event){
+	
+
+}
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
