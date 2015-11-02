@@ -1,19 +1,35 @@
+/*CSS reset*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
 
 .layout{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
+	background-color: #EED795;
 }
 
-.left column{
-	display: 2;
-	background-color: palegoldenrod;
+body{
+	font-family: sans-serif;
+}
+
+img {
+	width: 300px;
+}
+
+.left-column{
+	flex: 2;
 }
 
 .right-column{
-	display: 1;
+	flex: 1; 
 	background-color: khaki;
+
 }
 
 .first-row, .second-row, .third-row{
@@ -22,25 +38,32 @@
 
 .instructions{
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
+	margin: 8px 0px 12px;
+	text-align: center;
 }
 
-.first; .second; .third{
+/*.first; .second; .third{
 	display: 1;
 }
 
 .h2{
 	display: 1;
-}
+}*/
 
 h1{
-	font size: 18;
+	font size: 18px;
+	color: #A0694E;
 }
 
 ul, ol, h2 {
 	font-size: 14px;
-	color: tomato;
+	color: #A0694E;
 } 
+
+li{
+	color: black;
+}
 
 p{
 	font-size: 12px;

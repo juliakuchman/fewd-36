@@ -1,0 +1,26 @@
+body{
+	background-image: sky.jpg; 
+}
+
+h1{
+	font size: sans-serif;
+	font-size: 30px;
+}
+
+input{
+	width:;
+	height:;
+	background: white;
+	color: black;
+}
+
+button{
+	width:;
+	height:;
+
+}
+
+.buttons{
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,12 +1,17 @@
-    
-	addEventListener("click", function(IDK))
+var tempF = document.querySelector(".f-box");
+var tempC = document.querySelector(".c-box");
+var buttonF = document.querySelector(".f-to-c");
+var buttonC = document.querySelector(".c-to-f");
 
-    function calcCelciusToFahrenheit(c){
-      var f = c * (9/5) + 32;
-      return f;
-      }
+buttonF.addEventListener("click", calcFahrenheitToCelcius);
+buttonC.addEventListener("click", calcCelciusToFahrenheit);
 
-    function calcFahrenheitToCelcius(f){
-      var c = (5/9) * (f-32) 
-      return c; 
-      } 
+    function calcCelciusToFahrenheit(event){
+    	tempC = (5/9) * (tempF-32)
+      	return tempF.value
+    }
+
+    function calcFahrenheitToCelcius(event){
+     	tempF = tempC * (9/5) + 32;
+     	return tempC.value;
+     }
