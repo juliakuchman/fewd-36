@@ -35,16 +35,13 @@ function calcC(event) {
 var tempF = document.querySelector('.temp-f');
 var tempC = document.querySelector('.temp-c');
 
-//what is this? MDN says keyup event is fired when a key is released
-//think this calls functions calcFtoC when key released
 tempF.addEventListener('keyup', calcFtoC);
 tempC.addEventListener('keyup', calcCtoF);
 
 //CalcFtoC is function
-//assuming event is capturing what text is typed in?
 //event is the parameter/argument
 //tempC is return 
-//can we take out the calcFahrenheitToCelcius and replace with own?
+
 function calcFtoC(event) {
   if (tempF.value.length > 0) 
     tempC.value = (5/9)* tempF.value-32

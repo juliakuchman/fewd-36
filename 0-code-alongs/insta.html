@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram</title>
+</head>
+<body>
+
+<button>Post</button>
+
+<ul>
+	<li>hai</li>
+	<li>haiii</li>
+	<li>wooowwww</li>
+</ul>
+
+
+<label>
+	Username
+	<input class="username">
+</label>
+<label>
+	Comment
+	<input class="comment">
+</label>
+
+
+<script>
+
+//This function is for adding a new li when the button is clicked
+
+//Structure
+var list = document.querySelector("ul");
+var button = document.querySelector("button");
+var username = document.querySelector(".username");
+var comment = document.querySelector(".comment");
+
+//Events
+button.addEventListener("click", addComment);
+button.addEventListener("keyup", addComment);
+
+
+//Event Handler Functions
+function addComment(e){
+	var key = e.keyCode;
+
+	//The ! means if does not equal 
+
+	//Key code 13 is the enter key
+	//If key code exists and is not 13
+	if (key && key != 13) {
+
+	//This is returning early: 
+		return;
+	}
+
+	var usernameValue = username.value;
+	var commentValue = comment.value;
+
+	//Step 1 - Create the elements 
+	var newItem = document.createElement("LI");
+
+	//Step 2 - Decorate the elements
+	newItem.textContent = usernameValue + " : " + commentValue;
+
+	//Step 3 - insert the elements
+	list.appendChild(newItem);	
+}
+
+</script>
+
+</body>
+</html>

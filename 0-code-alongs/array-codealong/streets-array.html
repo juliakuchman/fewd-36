@@ -1,0 +1,76 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Streets Array</title>
+</head>
+
+<body>
+
+	<style>
+	input,
+	button {
+		width: 200;
+		padding: 5px 10px;
+		display: inline-block;
+		border: 1px solid black;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	</style>
+
+	<form>
+		<input class="input" placeholder="Street">
+		<button>Add</button>
+	</form>
+
+	<button class="route">Route</button>
+
+<ul></ul>
+
+<script>
+	//PASSING DATA INTO FUNCTION
+
+	var form   = document.querySelector("form"); 
+	var street = document.querySelector("input");
+	var list   = document.querySelector("ul");
+	var route  = document.querySelector(".route");
+
+	//Events
+	form.addEventListener("submit", directions)
+	route.addEventListener("submit", showRoute)
+	// Setup
+
+	// Event handler
+	function addStreet(event){
+		event.preventDefault()
+		streets.push(steet.value)
+
+		//cleanup 
+		form.reset();
+
+	}
+	// Use good format -- no space before parentheses, one space after curly brace, and then indent
+	function directions(items) {
+		//the below is to get a page to stop from reloading automatically
+		e.preventDefault()
+
+		var streetValue = street.value;
+	// step 1 - create element
+		var street1 = document.createElement("li");
+
+	// step 2 - blingification of the element
+		street1.textContent = streetValue;
+
+	// step 3 - surgical insertion of our element
+		list.appendChild(street1);
+
+	}
+
+//to PUSH, you would do streets.push(steet.value)
+
+</script>
+
+</body>
+</html>

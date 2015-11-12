@@ -1,0 +1,58 @@
+/* Layout */
+/* ---------------------------------- */
+html{
+	height: 100%;
+}
+
+body {
+	font-family: arial;
+	padding: 50px;
+	height: 100%;
+}
+p {
+	margin-top: 5px;
+}
+
+
+/* Color switcher */
+/* ---------------------------------- */
+ul {
+	display: flex;
+	margin: 20px 0;
+}
+li {
+	width: 50px;
+	height: 50px;
+	border: 4px solid black;
+	border-radius: 50%;
+	margin: 0 10px;
+	text-indent: -1000px;
+}
+li:hover {
+	box-shadow: 0 0 9px 3px rgba(0, 120, 60, 0.5);
+}
+
+
+/* Color themes */
+/* ---------------------------------- */
+.olive {
+	background: olive;
+	color: #12043E;
+}
+.skyblue {
+	background: skyblue;
+	background: repeating-linear-gradient(-45deg, skyblue, skyblue 10px, cornflowerblue 10px, cornflowerblue 20px);
+	color: #FFFFFF;
+}
+.salmon {
+	background: salmon;
+	color: #6C0A00;
+}
+.burlywood {
+	background: burlywood;
+	color: #0C4C2F;
+}
+.thistle {
+	background: thistle;
+	color: #7E3B7E;
+}

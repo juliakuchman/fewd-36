@@ -32,25 +32,25 @@
     </div>
 
     <script type="text/javascript" src="interface.js"></script>
-    <script type="text/javascript">
+    
+    <script>
 
-
-    function calcCelciusToFahrenheit(c){
-      var f = c * (9/5) + 32;
-      return f;
+    function calcFtoC(event){
+      var tempF = tempC * (9/5) + 32;
+      return tempF;
       }
 
-    function calcFahrenheitToCelcius(f){
+    function calcCtoF(event){
       var c = (5/9) * (f-32) 
       return c; 
       }     
 
-    function calcCircumference(r){
+    function calcCircumference(event){
       var circle = 2*Math.PI*r
       return circle;
     }
 
-    function calcLongestSide()
+    function calcLongestSide(event)
 
     </script>
   </body>
