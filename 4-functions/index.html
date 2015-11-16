@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Formulas</title>
-    <link rel="stylesheet" href="stylesheet.css" media="screen">
+    <link rel="stylesheet" href="css/stylesheet.css" media="screen">
   </head>
   <body>
     <h1>Fahrenheit to Celcius</h1>
@@ -31,26 +31,37 @@
       <input type="text" class="py-c" placeholder="C" disabled>
     </div>
 
-    <script type="text/javascript" src="interface.js"></script>
+    <!--<script type="text/javascript" src="js/interface.js"></script>-->
     
     <script>
 
+    var tempF = document.querySelector('.temp-f');
+    var tempC = document.querySelector('.temp-c');
+
+    tempF.addEventListener('keyup', calcFtoC);
+    tempC.addEventListener('keyup', calcCtoF);
+
     function calcFtoC(event){
-      var tempF = tempC * (9/5) + 32;
-      return tempF;
+      if (tempC.value = "NaN") {
+      tempF.value = window.prompt("Please enter a number");
       }
+      else {
+      tempC.value = (5/9) * tempF.value-32;
+      }
+    }
 
     function calcCtoF(event){
-      var c = (5/9) * (f-32) 
-      return c; 
+      tempF.value = tempC.value * (9/5) + 32;
       }     
 
     function calcCircumference(event){
-      var circle = 2*Math.PI*r
-      return circle;
+      circle.value = 2*Math.PI*r
     }
 
-    function calcLongestSide(event)
+    // function calcLongestSide(event)
+
+
+    // Math.sqrt((a * a) + (b * b))
 
     </script>
   </body>

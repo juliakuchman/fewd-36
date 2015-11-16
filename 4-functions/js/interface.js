@@ -1,6 +1,5 @@
 
-// Pythagorean Theorem 
-
+//Pythagorean Theorem 
 var pyA = document.querySelector('.py-a');
 var pyB = document.querySelector('.py-b');
 var pyC = document.querySelector('.py-c');
@@ -29,9 +28,10 @@ function calcC(event) {
   }
 }
 
-// Fahrenheit to Celcius and vice versa
+//Fahrenheit to Celcius and vice versa
+//Variables are defined by string objects that user puts 
+//Names are what referenced in html
 
-//variables are defined by string objects that user puts in, names are what referenced in html
 var tempF = document.querySelector('.temp-f');
 var tempC = document.querySelector('.temp-c');
 
@@ -42,18 +42,18 @@ tempC.addEventListener('keyup', calcCtoF);
 //event is the parameter/argument
 //tempC is return 
 
-function calcFtoC(event) {
-  if (tempF.value.length > 0) 
-    tempC.value = (5/9)* tempF.value-32
-  } else {
-    tempC.value = '';
-  }
-}
+// function calcFtoC(event) {
+//   if (tempF.value.length > 0) {
+//     tempC.value = (5/9) * tempF.value-32;
+//   } else {
+//     tempC.value = '';
+//   }
+// }
 
-function calcCtoF(event) {
-  if (tempC.value.length > 0) {
-    tempF.value = tempC.value * (9/5) + 32
-  } else {
-    tempF.value = '';
-  }
-}
+// function calcCtoF(event) {
+//   if (tempC.value.length > 0) {
+//     tempF.value = tempC.value * (9/5) + 32;
+//   } else {
+//     tempF.value = '';
+//   }
+// }

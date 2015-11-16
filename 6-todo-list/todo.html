@@ -2,31 +2,29 @@
 <html>
 
 <head>
-	<title>Todo: Create Your Own Todo List</title>	
-	<link rel="stylesheet" href="css/reset.css">
+	<title>Todo: Create Your Own Todo List</title><link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/todo.css">
-	
 </head>
 
 <body>
 	
 	<h1>Todo List</h1>		
 	
-	<div submission>
+	<div class="submission">
 	
-	<input type="text" placeholder="Task"/>
-	<input type="date"/>
-	<button>Add</button>
+		<input type="text" class="input" placeholder="Task"/>
+		
+		<input type="date" class= "date" placeholder="DD/MM/YYYY"/>
+	
+		<button>Add</button>
 
 	</div>
 
-
-	<div tasklist>
-	<ul></ul>
+	<div>
+		<ul class="tasklist"></ul>
 	</div>
 
+<script src="todo.js"></script>
 
-<script src="js/todo.js"></script>
 </body>
-
 </html>

@@ -8,10 +8,25 @@ h1 {
 	background-color: mediumseagreen;
 	font-size: 28px;
 	text-align: center;
-
 }
 
-.submission{
+
+.body {
+	backgroud: grey;
+}
+
+.submission {
 	background-color: rgb(213,210,213);
-	
+	margin: 20px;
+}
+
+input:checked + li {
+	text-decoration: line-through;
+}
+
+input:checked ~ span {
+	text-decoration: line-through;
+}
+input[type="checkbox"]{
+	display: block;
 }
