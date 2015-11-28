@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+	border: 1px solid blue;
+	padding: 10px;
+}
+
+ul {
+/*	Gets rid of default bullets 
+*/	list-style-type: none
+}
+
+header ul{
+	display: flex;
+}
+
+header li {
+	background: orange;
+	width: 100px;
+}
+
+section div{
+	background: red;
+}
+
+section ul {
+	display: flex;
+}
+
+section li{
+	background: yellow;
+	flex:1 ;
+}
+
+footer{
+	display: flex;
+}
+
+footer div{
+	flex:1 ;
+	background: green;
+}
+
+
+@media (max-width: 600px) {
+	body {
+		border-top: 10px dotted red;
+		background: teal;
+	}
+
+	header {
+		display: flex;
+	}
+
+	header ul {
+		flex-direction: column;
+	}
+
+}

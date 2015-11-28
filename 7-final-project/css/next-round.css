@@ -1,0 +1,31 @@
+
+h1 {
+	font-size: 60px;
+	color: white;
+}
+
+.title {
+	border-bottom: 10px white;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+nav:hover {
+
+
+}
+
+nav:active {
+
+}
+
+
+body {
+	background-image: url("images/night.jpg");
+}
+
+
