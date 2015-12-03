@@ -1,31 +1,115 @@
+/*this example came from portfolio
+responsive?*/
+
+html {
+	height: 100%
+}
+
 
 h1 {
 	font-size: 60px;
 	color: white;
+	margin: 20px;
+	border-bottom: 5px solid white;
 }
 
-.title {
-	border-bottom: 10px white;
+h2 {
+	font-size: 25px;
+	color: white;
 }
 
-nav {
-	display: flex;
-	justify-content: space-around;
+h3 {
+	font-size: 25px;
 	text-align: center;
+	color: gold;
+}
+/*
+.subtitle {
+	border-bottom: 1px solid white;	
+}*/
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-spacing: center;
+    width: 200px;
 }
 
-nav:hover {
-
-
+.order-form {
+	color: white;
 }
 
-nav:active {
-
+.order-form div {
+	margin: 20px;
 }
 
+ul.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: justify;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: white;
+	padding-bottom: 20px;
+}
+
+a:link {
+	color: gold;
+	font-size: 25px;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
 
 body {
 	background-image: url("images/night.jpg");
+}
+
+
+p {
+	font-size: 20px;
+	color: gold;
+	font-style: italic;
+}
+
+.order-total {
+	text-align: center;
+}
+
+button {
+	margin-top: 10px; 
+	margin-bottom: 10px;
+}
+
+.drinks li {
+	display: flex;
+}
+
+input {
+	font-size: 18px;
+	padding: 10px 20px;
+	border: 1px solid #999999;
+	background: rgba(255, 255, 255, 0.2);
+	margin: 10px 5px;
+}
+
+.drinks .drink {
+	flex: 1;
+}
+
+.drinks .qty {
+	width: 100px;
 }
 
 
