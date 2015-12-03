@@ -17,6 +17,13 @@ body{
 	height: 100%;
 }
 
+h2 {
+	background: red;
+	color: white;
+	padding: 5px;
+	margin:10px;
+}
+
 h1{
 	color: white;
 	padding: 5px
